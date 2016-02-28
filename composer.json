@@ -1,0 +1,9 @@
+{
+    "require": {
+        "phpunit/phpunit": "^5.2"
+    },
+    "autoload": {
+        "psr-4" : {"Rsh\\CsvTools\\": "" },
+        "exclude-from-class-map": ["Tests"]
+    }
+}
